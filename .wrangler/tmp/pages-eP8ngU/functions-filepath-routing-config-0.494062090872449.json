@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "routePath": "/api/news",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/news.js:onRequestGet"
+      ]
+    }
+  ],
+  "baseURL": "/"
+}
